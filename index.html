@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet"> 
   </head>
-  <body>
 
-<div class="container"> <!--This container causes the jumbotron and the navigation bar to not go to the ends of the website-->
+  <body>
+    <div class="container"> <!--This container causes the jumbotron and the navigation bar to not go to the ends of the website-->
 
 <!--This section is the menu at the top-->
     <header>
@@ -23,16 +23,13 @@
             <a class="nav-link" href="Homan_AboutMe.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Homan_Resume.html">WOrk Experience</a>
+            <a class="nav-link" href="Homan_Resume.html">Work Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Homan_Projects.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Homan_ContactMe.html">Contact Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="new_home.html">Exp. Home</a>
           </li>
         </ul>
       </nav>
@@ -44,74 +41,62 @@
       <p>Computers have always been a source of curiosity for me. As a little kid, I would always wonder, "How do computers work?" or "What is really happening when I use the internet?"...</p>
       <a href="Homan_AboutMe.html">Continue reading...</a>
     </section>
-    
-    <!--This entire section is the main content with the boxes. The section has an id of 'home' so I could style the text in css-->
-    <section class="container" id="home">
-    <!--This row is the first row. "col-md-6" splits the row into two equal columns. Each box is a card-->
+
+
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="card flex-md-row">
-           <div class="card-body">
-              <h6><strong>Contact Me</strong></h4>
-              <h2>Contact Information</h2>
+            <div class="card-body">
+              <strong>Contact Me</strong>
+              <h3>Contact Information</h3>
               <br>
-              <p>Have any questions? Feel free to contact me!<br><br>Personal Email: zoe.homan@gmail.com<br><br><br><br></p>
+              <p>Have any questions? Feel free to contact me!<br>Personal Email: zoe.homan@gmail.com<br><br><br><br></p>
               <a href="Homan_ContactMe.html">Continue reading...</a>
             </div>
-           <img src="Images/contactme.png" width="200px" height="175px" class="card-img-right">
+            <img class="card-img-right" style="max-width:200px; max-height:175px" src="Images/contactme.png" alt="Card Image">
           </div>
         </div>
-
-      <div class="col-md-6">
-        <div class="card flex-md-row">
-          <!--This set a container and row within the container so I could give the image and text max-widths they could go to-->
-          <div class="container row">
-            <div class="card-body col-md-8">
+        <div class="col-md-6">
+          <div class="card flex-md-row">
+            <div class="card-body">
               <h6><strong>Projects</strong></h4>
-              <h2>Scratch Project</h2>
-              <p>The scratch project was an introductory project to establish the basics of coding. In this project, I pair programmed for the first time, which taught me about some aspects of team dynamics in coding projects. The objective of this project was to make either a story animation of a game, and my partner and I decided on making a game inspired by the Mario Brothers.</p>
+              <h3>Scratch Project</h3>
+              <p>The scratch project was an introductory project to establish the basics of coding.The objective of this project was to make either a story animation of a game, and my partner and I decided on making a game inspired by the Mario Brothers.</p>
               <a href="Homan_Projects.html">Continue reading...</a>
             </div>
-            <div class="col-md-4">
-              <img src="Images/scratchdes.png" width="180px" height="250px" class="card-img-right">
+            <img class="card-img-right" style="max-width:200px; max-height:175px" src="Images/scratchdes.png" alt="Card Image">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card flex-md-row">
+            <div class="card-body">
+              <h6><strong>Work Experience</strong></h4>
+              <h3>Child Care Provider</h3>
+              <p>In my free time, I supervise children ages two through seven. In this job, I provide food for the children, I entertain, clean, and generally enforce safety.</p>
+              <a href="Homan_Resume.html">Continue reading...</a>
             </div>
+            <img class="card-img-right" style="max-width:200px; max-height:175px" src="Images/babysit.jpg" alt="Card Image">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row">
+            <div class="card-body">
+              <h6><strong>Projects</strong></h4>
+              <h3>MIT App Project</h3>
+              <p>In this project, my partner and I faced the task of renovating an app by adding our own innovative features to a game that was originally simple and basic. This app was developed in MIT App Inventor and we used a Mole Mash tutorial provided by MIT App Inventor as the starting point.</p>
+            <a href="Homan_Projects.html">Continue reading...</a>
+            </div>
+            <img class="card-img-right" style="max-width:200px; max-height:175px" src="Images/mitapp.png" alt="Card Image">
           </div>
         </div>
       </div>
     </div>
   
-  <!--This div starts a new row for the next two cards to take up. -->
-  <div class="row">
-      <div class="col-md-6">
-        <div class="card flex-md-row">
-          <div class="container row">
-          <div class="card-body col-md-6">
-            <h6><strong>Work Experience</strong></h4>
-            <h2>Child Care Provider</h2>
-            <p>In my free time, I supervise children ages two through seven. In this job, I provide food for the children, I entertain, clean, and generally enforce safety.</p>
-            <a href="Homan_Resume.html">Continue reading...</a>
-          </div>
-          <div class="col-md-6">
-           <img src="Images/babysit.jpg" width="250px" height="300px" class="card-img-right">
-          </div>
-        </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card flex-md-row">
-          <div class="card-body">
-            <h6><strong>Projects</strong></h4>
-            <h2>MIT App Project</h2>
-            <p>In this project, my partner and I faced the task of renovating an app by adding our own innovative features to a game that was originally simple and basic. This app was developed in MIT App Inventor and we used a Mole Mash tutorial provided by MIT App Inventor as the starting point.</p>
-            <a href="Homan_Projects.html">Continue reading...</a>
-          </div>
-          <img src="Images/mitapp.png" width="225px" height="300px" class="card-img-right">
-        </div>
-      </div>
-    </div>  
-</section>
-
+  </body>
 <br>
 <!--This section is the gradient box at the bottom of the screen with images-->
     <footer class="container">
